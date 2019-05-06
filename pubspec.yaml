@@ -8,7 +8,11 @@ dependencies:
   meta: "^1.0.5"
   flutter:
     sdk: flutter
-  location_permissions: "^2.0.0"
+  location_permissions:
+      git:
+        url: https://github.com/BaseflowIT/flutter-permission-plugins
+        ref: 9d0a35a206a0e29d7e96048a3f473c79579879d7
+        path: packages/location_permissions
   google_api_availability: "^2.0.0"
 dev_dependencies:
   flutter_test:
